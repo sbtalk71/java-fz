@@ -1,0 +1,20 @@
+assignment on interfaces
+
+create an interface named MyRemote with methods
+
+switchOn
+switchOff
+setChannel(int channel)
+
+
+implement the interface with 2 classes SonyTv and PanasonicTv. Demonstrate the functioning Of Remote with TV
+
+
+create another interface Named SmartRemote with methods
+
+connectToNetFlix
+ConnectToPrime
+
+implement the above intercaes with a class Named MySmartTv and demonstrate the functioning of SmartRemote (have funtionalities of MyRemote also)
+
+make the neccessary changes to suit your requirement if required.
