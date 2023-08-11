@@ -1,0 +1,11 @@
+create database empdb;
+
+use empdb;
+
+create table employees(empno int primary key, name varchar(30), address varchar(30), salary double);
+
+insert into employees(empno,name,address,salary) values (100,'rajesh','hyderabad',45000);
+insert into employees(empno,name,address,salary) values (101,'amit','gurugram',95000);
+insert into employees(empno,name,address,salary) values (102,'ranga','hyderabad',75000);
+insert into employees(empno,name,address,salary) values (103,'kiran','pune',65000);
+insert into employees(empno,name,address,salary) values (104,'karan','mumbai',85000);
